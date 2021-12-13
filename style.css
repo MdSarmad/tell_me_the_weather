@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container{
+    background-color: bisque;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 570px;
+
+    box-sizing: border-box;
+
+}
+
+.app-header{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+
+.input-location{
+    padding: 10px;
+}
+
+.input-location label{
+    font-size: 20px;
+}
+
+.city-input{
+    padding-left: 10px;
+    background-color: white;
+    width: 225px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.weather-bdy-img{
+    /* background-color: yellow; */
+    width: 360px;
+    height: 280px;
+
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.d-none{
+    display: none;
+}
+
+.weather-info-text, .display-temp{
+    text-align: center;
+}
+
+.city-name{
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.weather-info{
+    margin-top: 40px;
+}
+
+.weather-condition{
+    font-size: 20px;
+}
+
+.display-temp{
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+.weather-bdy-container{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 52%;
+    left: 36%;
+    width: 100px;
+    background-color: thistle;
+    border-radius: 50%;
+    
+}
+

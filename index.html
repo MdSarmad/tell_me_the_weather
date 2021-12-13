@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell Me The Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="weather-container">
+
+        <h1 class="app-header">Tell Me The Weather</h1>
+
+        <form class="input-location">
+            <label for="city">Enter City : </label>
+            <input type="text" name="city" class="city-input">
+        </form>
+
+
+        <div class="weather-bdy-container d-none">
+            <img src="https://via.placeholder.com/400x300" class="weather-bdy-img time">
+           <div class="weather-now-icon icon">
+                <img src="" alt="">
+                <!-- icon -->
+            </div> 
+            <div class="weather-info">
+                <h5 class="weather-info-text city-name">KOLKATA</h5>
+                <div class="weather-info-text weather-condition">RAINING</div>
+                <div class="display-temp">
+                    <span>30</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./weather.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
